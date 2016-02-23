@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 蓝色主色调 -->
+    <color name="main_color">#0080cc</color>
+    <color name="normal_text_color">#323232</color>
+</resources>

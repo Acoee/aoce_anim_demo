@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView 
+        android:id="@+id/daily_weekly_textview"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        style="@style/normal_text_style_white"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="周报"
+        android:background="@drawable/main_color_oval_bg"/>
+    
+    <TextView 
+        android:id="@+id/daily_dialy_textview"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        style="@style/normal_text_style_white"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="日报"
+        android:background="@drawable/main_color_oval_bg"/>
+    
+    <TextView 
+        android:id="@+id/daily_monthly_textview"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        style="@style/normal_text_style_white"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="月报"
+        android:background="@drawable/main_color_oval_bg"/>
+    
+    <ImageView
+        android:id="@+id/daily_write_imageview"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/write_daily_fold_icon" />
+    
+    <TextView 
+        android:id="@+id/daily_weekly_show_textview"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        style="@style/normal_text_style_white"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/daily_write_imageview"
+        android:layout_marginRight="1dip"
+        android:gravity="center"
+        android:text="周报"
+        android:visibility="gone"
+        android:background="@drawable/main_color_oval_bg"/>
+    
+    <TextView 
+        android:id="@+id/daily_dialy_show_textview"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        style="@style/normal_text_style_white"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/daily_write_imageview"
+        android:layout_marginBottom="1dip"
+        android:gravity="center"
+        android:text="日报"
+        android:visibility="gone"
+        android:background="@drawable/main_color_oval_bg"/>
+    
+    <TextView 
+        android:id="@+id/daily_monthly_show_textview"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        style="@style/normal_text_style_white"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/daily_write_imageview"
+        android:layout_marginLeft="1dip"
+        android:gravity="center"
+        android:text="月报"
+        android:visibility="gone"
+        android:background="@drawable/main_color_oval_bg"/>
+    
+</RelativeLayout>
